@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/7793ac7852.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="header">
+        <img src="img/logo.png" alt="Logo" id="header-img" class="header__img" />
+  
+        <nav id="nav-bar" class="header__nav">
+          <ul>
+            <li>
+              <a href="#features" class="nav-link">Features</a>
+            </li>
+            <li>
+              <a href="#video" class="nav-link">How it works</a>
+            </li>
+            <li>
+              <a href="#pricing" class="nav-link">Pricing</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      
+    </header>
+
+    <main>
+      <div class="form">
+        <h1 class="form__head">Classic Handcrafted Guitar</h1>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" class="form__cont">
+          <input name='email' type="email" id="email" placeholder="enter your email address" class="form__cont-email" required>
+          <input id="submit" type="submit" value="Get Started" class="form__cont-btn">
+        </form>
+      </div>    
+      
+      <div id="features" class="features">
+        <div class="features__feature">
+          <i class="fas fa-music fa-4x features__icon"></i>
+          <div class="features__content">
+            <h2 class="features__head">
+              Premium Materials
+            </h2>
+            <p class="features__text">
+              Our guitars use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
+            </p>
+          </div>
+        </div>
+        <div class="features__feature">
+          <i class="fas fa-shipping-fast fa-4x features__icon"></i>
+          <div class="features__content">
+            <h2 class="features__head">
+              Fast Shipping
+            </h2>
+            <p class="features__text">
+              We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.
+            </p>
+          </div>
+        </div>
+        <div class="features__feature">
+          <i class="fas fa-battery-full fa-4x features__icon"></i>
+          <div class="features__content">
+            <h2 class="features__head">
+              Quality Assurance
+            </h2>
+            <p class="features__text">
+              For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/8B6jOUzBKYc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </iframe>
+      </div>
+
+      <div id="pricing" class="pricing">
+        <div class="pricing__box">
+          <h3 class="pricing__head">Acoustic guitar</h3>
+          <h4 class="pricing__price">100$</h4>
+          <div class="pricing__details">
+            <ul>
+              <li>Smaller body style ideal for kids</li>
+              <li>7/8 scale</li>
+              <li>Maple neck</li>
+              <li>Select hardwood fretboard</li>
+            </ul>
+          </div>
+          <button class="pricing__btn">select</button>
+        </div>
+        <div class="pricing__box">
+          <h3 class="pricing__head">Electric guitar</h3>
+          <h4 class="pricing__price">300$</h4>
+          <div class="pricing__details">
+            <ul>
+              <li>Everything you need to start playing electric guitar</li>
+              <li>A great gift for beginning guitarists</li>
+              <li>Easy guitar for children to learn with</li>
+              <li>Practice amplifier suitable for bedroom volumes</li>
+            </ul>
+          </div>
+          <button class="pricing__btn">select</button>
+        </div>
+        <div class="pricing__box">
+          <h3 class="pricing__head">Electric bass</h3>
+          <h4 class="pricing__price">250$</h4>
+          <div class="pricing__details">
+            <ul>
+              <li>Basswood dual cutaway body</li>
+              <li>Bolt-on maple neck with rosewood fingerboard</li>
+              <li>High-mass adjustable saddle bridge</li>
+              <li>P-style split coil neck pickup</li>
+            </ul>
+          </div>
+          <button class="pricing__btn">select</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
